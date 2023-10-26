@@ -8,8 +8,8 @@ class Animal {
     return this._species;
   }
 
-  makeSound() {
-    console.log("Some generic animal sound");
+   makeSound() {
+    console.log(`The ${this.species} makes a sound`);
   }
 }
 
